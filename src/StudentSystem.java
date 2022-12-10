@@ -59,22 +59,20 @@ public class StudentSystem {
 		    		int ID = sc1.nextInt();
 		    		StudentRecords.add(ID);
 		    		System.out.println(" RECORDS ADDED SUCCESSFULY :"); 
-		    	} 
+		    	}
 		    	else if (userchoice==2) {
 		    		System.out.println(" give Student ID you want to delete :"); 
 		    		System.out.println(" student ID :");
 		    		int ID = sc1.nextInt();
-		    		StudentRecords.remove(ID);
+		    		
 		    	} 
 		    	else {
 	    
 		    		System.out.println(" wronge selected number "); 
 	    	
 		    	}
-		    }
-		    	else { 
-			    	System.out.println(" wronge ID "); 
-			    } 
-	} 
+		    	
+		    } 
 	   }
-	}
+    }
+}
