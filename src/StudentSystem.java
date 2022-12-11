@@ -74,8 +74,7 @@ public class StudentSystem {
 		    	else  {
 	    
 		    		System.out.println(" wronge selected number "); 	} }
-		    	else  {System.out.println("wrong pass "); 
 		    
 	   }
     }  
-	}
+
